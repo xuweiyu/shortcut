@@ -15,9 +15,15 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <!--静态注册shortcut-->
+            <!--能配置静态shortcuts的activity必须要有action是android.intent.action.MAIN和category是android.intent.category.LAUNCHER!-->
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcut" />
         </activity>
         <activity android:name=".ActivityA" />
         <activity android:name=".ActivityB" />
+        <activity android:name=".ActivityStatic" />
     </application>
 
 </manifest>

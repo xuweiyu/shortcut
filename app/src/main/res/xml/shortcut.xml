@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
 <shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
-    <shortcut ></shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/icon_static"
+        android:shortcutDisabledMessage="@string/static_type_fail"
+        android:shortcutId="static"
+        android:shortcutLongLabel="@string/static_type"
+        android:shortcutShortLabel="@string/static_type">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.xwy.shortcut.ActivityStatic"
+            android:targetPackage="com.xwy.shortcut" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
 </shortcuts>
