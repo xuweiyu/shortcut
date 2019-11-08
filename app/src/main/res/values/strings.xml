@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">shortcut</string>
+    <string name="static_type">静态方式</string>
+    <string name="static_type_fail">静态方式失败</string>
 </resources>
