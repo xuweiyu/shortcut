@@ -20,7 +20,7 @@
         android:id="@+id/remove_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="移除所有"
+        android:text="移除第一个动态添加"
         android:textColor="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,4 +35,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/remove_first" />
+
+    <Button
+        android:id="@+id/update_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新第二个"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/add_first" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
